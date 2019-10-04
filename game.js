@@ -29,8 +29,8 @@ function update() {
 
 const config = {
   type: Phaser.AUTO,
-  width: 400,
-  height: 500,
+  width: 1000,
+  height: 1000,
   backgroundColor: "#BB9543",
   scene: {
     preload,
