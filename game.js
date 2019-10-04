@@ -1,7 +1,7 @@
 const gameState = {}
 
 function preload() {
-  this.load.image('codey', 'https://raw.githubusercontent.com/Grimnir03/Grimnir03.github.io/master/logo/SJdevelopment%20img.png');
+  this.load.image('codey', 'https://piskel-imgstore-b.appspot.com/img/499ec86e-e6be-11e9-83e7-7fe363a209be.gif');
 }
 
 function create() {
