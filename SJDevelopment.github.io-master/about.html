@@ -1,0 +1,19 @@
+<h1>hi</h1>
+
+<script>
+function myFunction() {
+  var name = document.getElementById("firstname").value;
+  var address = document.getElementById("email").value;
+  var submission = (name + " : " + address)
+  console.log(submission);
+  document.getElementById("firstname").value = "Name";
+  document.getElementById("email").value = "Email";
+}
+</script>
+
+<form>
+  <input id="firstname" type="text" placeholder="Hi">
+  <br>
+  <input id="email" type="text" value="Mouse">
+  <br>
+</form
