@@ -27,20 +27,11 @@
     box.material = boxMaterial;
 
 
-    var box = BABYLON.Mesh.CreateBox("box1", 1, scene);
-    box1.position.x = -4;
-    box1.rotation.x = -0.2;
-    box1.rotation.y = -0.3;
-    var boxMaterial = new BABYLON.StandardMaterial("material", scene);
-    boxMaterial.emissiveColor = new BABYLON.Color3(0.15, 0.14, 0.16);
-    box1.material = boxMaterial;
-
 
     var t = 0;
     var renderLoop = function () {
         scene.render();
         t -= 0.01;
-        box1.rotation.y = t*2;
         box.rotation.y = t*2;
     };
     engine.runRenderLoop(renderLoop);
