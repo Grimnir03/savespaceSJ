@@ -16,6 +16,7 @@
     var scene = new BABYLON.Scene(engine);
     scene.clearColor = new BABYLON.Color3(0.15, 0.14, 0.16);
     var camera = new BABYLON.FreeCamera("camera", new BABYLON.Vector3(2, 0, -10), scene);
+    Camera.moveSensibility = 100 ;
     var light = new BABYLON.PointLight("light", new BABYLON.Vector3(10, 10, 0), scene);
 
     var box = BABYLON.Mesh.CreateBox("box", 8, scene);
