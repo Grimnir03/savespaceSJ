@@ -25,6 +25,13 @@
     var boxMaterial = new BABYLON.StandardMaterial("material", scene);
     boxMaterial.emissiveColor = new BABYLON.Color3(0.15, 0.14, 0.16);
     box.material = boxMaterial;
+    var t = 0;
+    var renderLoop = function () {
+        scene.render();
+        t -= 0.01;
+        box.rotation.y = t*2;
+    };
+    engine.runRenderLoop(renderLoop);
 
     var box = BABYLON.Mesh.CreateBox("box", 1, scene);
     box.position.x = -4;
