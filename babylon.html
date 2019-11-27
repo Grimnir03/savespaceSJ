@@ -16,18 +16,18 @@
     vertical-align: baseline;
     border-bottom: 5px solid #cf5d0c;
     }
-    footer {
-    position: sticky;
-    ffont-family: 'Raleway', sans-serif;
-    background-color: #0a0909;
+    .footer {
+    position: fixed;
+    left: 0;
     bottom: 0;
-    height: 60px;
     width: 100%;
-    z-index: 3;
-    vertical-align: baseline;
-    border-bottom: 5px solid #cf5d0c;
-      
+    background-color: red;
+    color: white;
+    text-align: center;
     }
+    
+    
+    
     .first{
       background-image: url("https://raw.githubusercontent.com/Grimnir03/Grimnir03.github.io/master/backgrounds/uploads1513795555327-HorizonZeroDawnGraphics.jpg");
       top: 65px;
@@ -140,10 +140,10 @@
         <div class="hlnk"> <a href="https://sjdevelopment.github.io/sjtestrealm.github.io/">TestSite</a></div>
         <div class="hlnk2"> <a href="https://sjdevelopment.github.io/">Discord</a></div>
    </header>
- <footer>
-   <h4>SJ Development</h4>
- </footer>
-<<body>
+<div class="footer">
+  <p>Footer</p>
+</div>
+<body>
 <script src="https://cdn.babylonjs.com/babylon.js"></script>
 <canvas id="render-canvas"></canvas>
 <script>
