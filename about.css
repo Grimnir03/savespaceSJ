@@ -9,6 +9,8 @@ body {
 
 a {
   border: 1px solid white;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid blue;
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
   padding-left: 12px;
